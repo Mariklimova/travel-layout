@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1220px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    .img-logo {
+        background-image: url(./logo\ \(1\).png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 41px;
+        height: 41px;
+    }
+
+    nav {
+        display: flex;
+        gap: 35px;
+        align-items: center;
+
+        p {
+            color: #B8BECD;
+            font: 400 16px Inter;
+            letter-spacing: 0.01em;
+
+            &:hover {
+                color: #202336;
+                font-weight: 500;
+                letter-spacing: 0;
+            }
+        }
+
+
+        .left-btn {
+            width: 132px;
+            padding: 9px 0;
+            border-radius: 8px;
+            border: 1px solid #FB8F1D;
+            background: #FFF;
+            color: #FB8F1D;
+            font-family: Inter;
+            font-size: 15px;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .right-btn {
+            border-radius: 8px;
+            background: #FB8F1D;
+            width: 132px;
+            color: #FFF;
+            font: 500 15px Inter;
+            text-align: center;
+            padding: 9px 0;
+        }
+    }
+}
+
+.preview {
+    display: flex;
+    // flex-direction: column;
+    margin-top: 114px;
+    justify-content: space-between;
+    align-items: center;
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+
+    h1 {
+        color: #202336;
+        font: 700 64px Playfair Display;
+    }
+
+    p {
+        color: #202336;
+        font-family: Inter;
+        font-size: 22px;
+        font-weight: 600;
+        margin-top: 74px;
+        margin-bottom: 71px;
+    }
+
+    .inputs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        color: #4A4C53;
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 47px;
+    }
+
+    input {
+        // padding: 21px 121px 31px;
+        border-radius: 6px;
+        border: 0.8px solid #AFB0B9;
+        // margin-bottom: 68px;
+        width: 210px;
+        padding: 15px;
+    }
+
+    .button {
+        border-radius: 8px;
+        background: #FB8F1D;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        padding: 10px 58px;
+        width: 180px;
+    }
+
+    .img {
+        background-image: url(./thousand-01\ 1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 506px;
+        height: 483px;
+    }
+}
