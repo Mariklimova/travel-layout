@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
 
     .img-logo {
-        background-image: url(./logo\ \(1\).png);
+        background-image: url(./assets/logo\ \(1\).png);
         background-repeat: no-repeat;
         background-size: contain;
         width: 41px;
@@ -67,7 +67,6 @@ header {
 
 .preview {
     display: flex;
-    // flex-direction: column;
     margin-top: 114px;
     justify-content: space-between;
     align-items: center;
@@ -107,7 +106,6 @@ header {
         // padding: 21px 121px 31px;
         border-radius: 6px;
         border: 0.8px solid #AFB0B9;
-        // margin-bottom: 68px;
         width: 210px;
         padding: 15px;
     }
@@ -118,17 +116,58 @@ header {
         color: #FFF;
         font-family: Inter;
         font-size: 17px;
-        font-style: normal;
         font-weight: 700;
         padding: 10px 58px;
         width: 180px;
     }
 
-    .img {
-        background-image: url(./thousand-01\ 1.png);
+    .img-1 {
+        background-image: url(./assets/thousand-01\ 1.png);
         background-repeat: no-repeat;
         background-size: contain;
         width: 506px;
         height: 483px;
+    }
+}
+
+.proposal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .img-2 {
+        background-image: url(./assets/Thousand-02\ 1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 659px;
+        height: 534px;
+    }
+
+    .info-2 {
+        display: flex;
+        flex-direction: column;
+        width: 481px;
+        margin-top: 113px;
+    }
+
+    h3 {
+        color: #000;
+        font: 700 36px Playfair Display;
+    }
+
+    p {
+        color: #7D7987;
+        font: 300 17px Inter;
+    }
+
+    .button-2 {
+        border-radius: 8px;
+        background: #FB8F1D;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px 58px;
+        width: 164px;
     }
 }
