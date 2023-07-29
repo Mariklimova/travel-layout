@@ -47,10 +47,12 @@ header {
             border: 1px solid #FB8F1D;
             background: #FFF;
             color: #FB8F1D;
-            font-family: Inter;
-            font-size: 15px;
-            font-weight: 500;
+            font: 500 15px Inter;
             text-align: center;
+
+            &:active {
+                background: #0d765c;
+            }
         }
 
         .right-btn {
@@ -61,6 +63,11 @@ header {
             font: 500 15px Inter;
             text-align: center;
             padding: 9px 0;
+
+            &:active {
+                background: #0d765c;
+                color: #FB8F1D;
+            }
         }
     }
 }
@@ -94,14 +101,11 @@ header {
         flex-wrap: wrap;
         gap: 30px;
         color: #4A4C53;
-        font-family: Inter;
-        font-size: 15px;
-        font-weight: 400;
+        font: 400 15px Inter;
         margin-bottom: 47px;
     }
 
     input {
-        // padding: 21px 121px 31px;
         border-radius: 6px;
         border: 0.8px solid #AFB0B9;
         width: 210px;
@@ -112,11 +116,14 @@ header {
         border-radius: 8px;
         background: #FB8F1D;
         color: #FFF;
-        font-family: Inter;
-        font-size: 17px;
-        font-weight: 700;
+        font: 700 17px Inter;
         padding: 10px 58px;
         width: 180px;
+
+        &:active {
+            background: #0d765c;
+            color: #FB8F1D;
+        }
     }
 
     .img-1 {
@@ -147,7 +154,6 @@ header {
         display: flex;
         flex-direction: column;
         width: 481px;
-        // margin-top: 113px;
     }
 
     h3 {
@@ -169,37 +175,70 @@ header {
         font: 600 16px Inter;
         padding: 12px 37px;
         width: 164px;
+
+        &:active {
+            background: #0d765c;
+                color: #FB8F1D;
+        }
     }
+
 }
 
 footer {
     background: #F9F9FB;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 408px;
     width: 1640px;
-}
-.advice {
-    display: flex;
-    flex-direction: column;
-   justify-content: flex-start;
-   align-items: stretch;
-   width: 450px;
 
-}
-.img-logo-2 {
-    background-image: url(./assets/Group\ 7.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 44px;
-    height: 37px;
-}
+    .advice {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: stretch;
+        width: 370px;
+        height: 260px;
 
-p {
-    color: #848484;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 300;
-    margin-top: 30px;
+        .img-logo-2 {
+            background-image: url(./assets/Group\ 7.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 44px;
+            height: 37px;
+        }
+
+        p {
+            color: #848484;
+            font: 300 18px Inter;
+            line-height: 28px;
+            margin-top: 30px;
+        }
+
+    }
+
+    .variants {
+        display: flex;
+    }
+
+    .destinations,
+    .shop,
+    .interests {
+        display: flex;
+        flex-direction: column;
+        width: 290px;
+        margin-top: 40px;
+
+        h4 {
+            color: #000;
+            font: 700 19px Inter;
+            line-height: 60px;
+        }
+
+        p {
+            color: #848484;
+            font: 300 18px Inter;
+            line-height: 38px;
+        }
+    }
 }

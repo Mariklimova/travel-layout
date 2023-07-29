@@ -52,10 +52,11 @@ header nav .left-btn {
   border: 1px solid #FB8F1D;
   background: #FFF;
   color: #FB8F1D;
-  font-family: Inter;
-  font-size: 15px;
-  font-weight: 500;
+  font: 500 15px Inter;
   text-align: center;
+}
+header nav .left-btn:active {
+  background: #0d765c;
 }
 header nav .right-btn {
   border-radius: 8px;
@@ -65,6 +66,10 @@ header nav .right-btn {
   font: 500 15px Inter;
   text-align: center;
   padding: 9px 0;
+}
+header nav .right-btn:active {
+  background: #0d765c;
+  color: #FB8F1D;
 }
 
 .preview {
@@ -107,9 +112,7 @@ header nav .right-btn {
       flex-wrap: wrap;
   gap: 30px;
   color: #4A4C53;
-  font-family: Inter;
-  font-size: 15px;
-  font-weight: 400;
+  font: 400 15px Inter;
   margin-bottom: 47px;
 }
 .preview input {
@@ -122,11 +125,13 @@ header nav .right-btn {
   border-radius: 8px;
   background: #FB8F1D;
   color: #FFF;
-  font-family: Inter;
-  font-size: 17px;
-  font-weight: 700;
+  font: 700 17px Inter;
   padding: 10px 58px;
   width: 180px;
+}
+.preview .button:active {
+  background: #0d765c;
+  color: #FB8F1D;
 }
 .preview .img-1 {
   background-image: url(./assets/thousand-01\ 1.png);
@@ -184,23 +189,25 @@ header nav .right-btn {
   padding: 12px 37px;
   width: 164px;
 }
+.proposal .button-2:active {
+  background: #0d765c;
+  color: #FB8F1D;
+}
 
 footer {
   background: #F9F9FB;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   height: 408px;
   width: 1640px;
 }
-
-.advice {
+footer .advice {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -208,27 +215,57 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  width: 450px;
+  width: 370px;
+  height: 260px;
 }
-
-.img-logo-2 {
+footer .advice .img-logo-2 {
   background-image: url(./assets/Group\ 7.png);
   background-repeat: no-repeat;
   background-size: contain;
   width: 44px;
   height: 37px;
 }
-
-p {
+footer .advice p {
   color: #848484;
-  font-family: Inter;
-  font-size: 18px;
-  font-weight: 300;
+  font: 300 18px Inter;
+  line-height: 28px;
   margin-top: 30px;
+}
+footer .variants {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .destinations,
+footer .shop,
+footer .interests {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 290px;
+  margin-top: 40px;
+}
+footer .destinations h4,
+footer .shop h4,
+footer .interests h4 {
+  color: #000;
+  font: 700 19px Inter;
+  line-height: 60px;
+}
+footer .destinations p,
+footer .shop p,
+footer .interests p {
+  color: #848484;
+  font: 300 18px Inter;
+  line-height: 38px;
 }
