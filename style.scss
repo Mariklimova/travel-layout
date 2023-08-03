@@ -82,47 +82,47 @@ header {
         display: flex;
         flex-direction: column;
         width: 500px;
-    }
 
-    h1 {
-        color: #202336;
-        font: 700 64px Playfair Display;
-    }
+        h1 {
+            color: #202336;
+            font: 700 64px Playfair Display;
+        }
 
-    p {
-        color: #202336;
-        font: 600 22px Inter;
-        margin-top: 74px;
-        margin-bottom: 71px;
-    }
+        p {
+            color: #202336;
+            font: 600 22px Inter;
+            margin-top: 74px;
+            margin-bottom: 71px;
+        }
 
-    .inputs {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
-        color: #4A4C53;
-        font: 400 15px Inter;
-        margin-bottom: 47px;
-    }
+        .inputs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            color: #4A4C53;
+            font: 400 15px Inter;
+            margin-bottom: 47px;
+        }
 
-    input {
-        border-radius: 6px;
-        border: 0.8px solid #AFB0B9;
-        width: 210px;
-        padding: 15px;
-    }
+        input {
+            border-radius: 6px;
+            border: 0.8px solid #AFB0B9;
+            width: 210px;
+            padding: 15px;
+        }
 
-    .button {
-        border-radius: 8px;
-        background: #FB8F1D;
-        color: #FFF;
-        font: 700 17px Inter;
-        padding: 10px 58px;
-        width: 180px;
+        .button {
+            border-radius: 8px;
+            background: #FB8F1D;
+            color: #FFF;
+            font: 700 17px Inter;
+            padding: 10px 58px;
+            width: 180px;
 
-        &:active {
-            background: #0d765c;
-            color: #FB8F1D;
+            &:active {
+                background: #0d765c;
+                color: #FB8F1D;
+            }
         }
     }
 
@@ -132,6 +132,7 @@ header {
         background-size: contain;
         width: 506px;
         height: 483px;
+
     }
 }
 
@@ -154,31 +155,31 @@ header {
         display: flex;
         flex-direction: column;
         width: 481px;
-    }
 
-    h3 {
-        color: #000;
-        font: 700 36px Playfair Display;
-    }
+        h3 {
+            color: #000;
+            font: 700 36px Playfair Display;
+        }
 
-    p {
-        color: #7D7987;
-        font: 300 17px Inter;
-        margin-top: 20px;
-        margin-bottom: 39px;
-    }
+        p {
+            color: #7D7987;
+            font: 300 17px Inter;
+            margin-top: 20px;
+            margin-bottom: 39px;
+        }
 
-    .button-2 {
-        border-radius: 8px;
-        background: #FB8F1D;
-        color: #FFF;
-        font: 600 16px Inter;
-        padding: 12px 37px;
-        width: 164px;
+        .button-2 {
+            border-radius: 8px;
+            background: #FB8F1D;
+            color: #FFF;
+            font: 600 16px Inter;
+            padding: 12px 37px;
+            width: 164px;
 
-        &:active {
-            background: #0d765c;
+            &:active {
+                background: #0d765c;
                 color: #FB8F1D;
+            }
         }
     }
 
@@ -219,26 +220,27 @@ footer {
 
     .variants {
         display: flex;
+
+        .destinations,
+        .shop,
+        .interests {
+            display: flex;
+            flex-direction: column;
+            width: 290px;
+            margin-top: 40px;
+
+            h4 {
+                color: #000;
+                font: 700 19px Inter;
+                line-height: 60px;
+            }
+
+            p {
+                color: #848484;
+                font: 300 18px Inter;
+                line-height: 38px;
+            }
+        }
     }
 
-    .destinations,
-    .shop,
-    .interests {
-        display: flex;
-        flex-direction: column;
-        width: 290px;
-        margin-top: 40px;
-
-        h4 {
-            color: #000;
-            font: 700 19px Inter;
-            line-height: 60px;
-        }
-
-        p {
-            color: #848484;
-            font: 300 18px Inter;
-            line-height: 38px;
-        }
-    }
 }

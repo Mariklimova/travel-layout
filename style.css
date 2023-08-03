@@ -94,17 +94,17 @@ header nav .right-btn:active {
           flex-direction: column;
   width: 500px;
 }
-.preview h1 {
+.preview .info h1 {
   color: #202336;
   font: 700 64px Playfair Display;
 }
-.preview p {
+.preview .info p {
   color: #202336;
   font: 600 22px Inter;
   margin-top: 74px;
   margin-bottom: 71px;
 }
-.preview .inputs {
+.preview .info .inputs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -115,13 +115,13 @@ header nav .right-btn:active {
   font: 400 15px Inter;
   margin-bottom: 47px;
 }
-.preview input {
+.preview .info input {
   border-radius: 6px;
   border: 0.8px solid #AFB0B9;
   width: 210px;
   padding: 15px;
 }
-.preview .button {
+.preview .info .button {
   border-radius: 8px;
   background: #FB8F1D;
   color: #FFF;
@@ -129,7 +129,7 @@ header nav .right-btn:active {
   padding: 10px 58px;
   width: 180px;
 }
-.preview .button:active {
+.preview .info .button:active {
   background: #0d765c;
   color: #FB8F1D;
 }
@@ -171,17 +171,17 @@ header nav .right-btn:active {
           flex-direction: column;
   width: 481px;
 }
-.proposal h3 {
+.proposal .info-2 h3 {
   color: #000;
   font: 700 36px Playfair Display;
 }
-.proposal p {
+.proposal .info-2 p {
   color: #7D7987;
   font: 300 17px Inter;
   margin-top: 20px;
   margin-bottom: 39px;
 }
-.proposal .button-2 {
+.proposal .info-2 .button-2 {
   border-radius: 8px;
   background: #FB8F1D;
   color: #FFF;
@@ -189,7 +189,7 @@ header nav .right-btn:active {
   padding: 12px 37px;
   width: 164px;
 }
-.proposal .button-2:active {
+.proposal .info-2 .button-2:active {
   background: #0d765c;
   color: #FB8F1D;
 }
@@ -242,9 +242,9 @@ footer .variants {
   display: -ms-flexbox;
   display: flex;
 }
-footer .destinations,
-footer .shop,
-footer .interests {
+footer .variants .destinations,
+footer .variants .shop,
+footer .variants .interests {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -255,16 +255,16 @@ footer .interests {
   width: 290px;
   margin-top: 40px;
 }
-footer .destinations h4,
-footer .shop h4,
-footer .interests h4 {
+footer .variants .destinations h4,
+footer .variants .shop h4,
+footer .variants .interests h4 {
   color: #000;
   font: 700 19px Inter;
   line-height: 60px;
 }
-footer .destinations p,
-footer .shop p,
-footer .interests p {
+footer .variants .destinations p,
+footer .variants .shop p,
+footer .variants .interests p {
   color: #848484;
   font: 300 18px Inter;
   line-height: 38px;
